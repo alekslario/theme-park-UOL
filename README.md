@@ -1,7 +1,5 @@
 # theme-park-UOL
 
-#
-
 ## Purpose of web site:
 The main purpose of the website is to support users in purchasing tickets to attend the theme park. Booking functionality must be readily available to allow users to search for specific booking times and pricing, whenever necessary, in a user-friendly manner.
 
