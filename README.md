@@ -4,13 +4,13 @@
 The main purpose of the website is to support users in purchasing tickets to attend the theme park. Booking functionality must be readily available to allow users to search for specific booking times and pricing, whenever necessary, in a user-friendly manner.
 
 General supporting information will be supplied, such as:
-1) Ticketing information.
-2) A map of the theme park.
-3) Accessibility information.
-4) Accommodation suggestions.
-5) Parking information.
-6) Contact information.
-7) Park opening/closing times.
+1) Ticketing information
+2) A map of the theme park
+3) Accessibility information
+4) Accommodation suggestions
+5) Parking information
+6) Contact information
+7) Park opening/closing times
 
 #
 
@@ -35,3 +35,41 @@ Ticketing is well laid out and is uncluttered, making it easy to read and unders
 Generally, the websites can be extremely busy with a lot of information thrown at the user all at once.
 
 #
+
+## Website content:
+### Homepage:
+Homepage content should include:
+1) Featured rides
+2) Latest park news
+3) Pricing updates
+4) Park pricing packages
+5) Events
+6) Splash images
+7) Newsletter signup
+8) Booking functionality
+
+### Packages page:
+1) Featured (seasonal) packages
+2) Family booking packages
+3) Annual packages
+4) Partner packages
+5) Accommodation packages
+
+### Help page:
+1) Map of park
+2) Parking information
+3) Accessibility information
+4) Event information
+
+### FAQ page:
+1) General park FAQs
+2) Specific ride FAQs
+3) Ticketing FAQs
+4) Website FAQs
+
+### Contact page:
+1) Contact form
+2) Address
+3) Contact information
+4) Emergency contact information
+5) Park opening/closing times
