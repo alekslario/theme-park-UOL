@@ -4,3 +4,9 @@
   --main-attention-color: #f6881f;
   --secondary-attention-color: ##1dade4;
 }
+footer {
+  display: flex;
+}
+menu {
+  display: flex;
+}
