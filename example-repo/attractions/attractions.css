@@ -1,0 +1,148 @@
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    z-index: 0;
+    animation-name: navbar;
+    animation-duration: 0.8s;
+  }
+  @keyframes navbar{
+    from{ transform: translateY(-400px);}
+    to {transform: translateY(0px);}
+  }
+
+    /* Links inside the navbar */
+    .navbar li {
+        float: right; /* to set the options above to the right*/
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 30px 20px;
+        text-decoration: none;
+        font-size: 110%;
+      }
+      
+      /* Change background on mouse-over */
+      .navbar li:hover {
+        background: #ddd;
+        color: black;
+      }
+
+.clearB{
+    Clear:both;
+}
+
+.heading{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Old newspaper font', sans-serif;
+                                                
+}
+.subheading{
+    font-size: 32px;
+    text-align: left;
+}
+.imagesleft{
+    float: left;
+    margin-right: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;  
+    margin-left: 10px;
+    padding-top: 25px;
+    }
+
+.floatedleftText{
+    float: left;
+    text-align: left;
+    max-width: 45%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+}
+
+.floatedrightText{
+    float:right;
+    text-align: justify;
+    max-width:  45%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+}
+
+.imagesright{
+    float: right;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+ body {
+    background-image: url('attractions.jpg/old newspaper.jpeg');
+    background-repeat: repeat;
+  }
+  
+/*Footer CSS*/
+footer * {
+    background: #333;
+    width: 100%;
+    color: white;
+    bottom: 0;
+    z-index: 2;
+    animation-name: footer;
+    animation-duration: 1.2s;
+  }
+  
+  /*the footer animation*/
+  @keyframes footer{
+    0% {opacity: 0;}
+    100%{opacity: 1;}
+    from{ transform: translateY(400px);}
+    to {transform: translateY(0px);}
+  }
+  
+  /*the get newsletter button from the footer*/
+  footer button {
+    width: 200px;
+    height: 40px;
+  }
+  
+  footer button:hover {
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  
+  #footer-content {
+    overflow: auto;
+  }
+  
+  .newsletter {
+    float: left;
+    width: 50%;
+  }
+  
+  .socials {
+    float: left;
+    width: 50%;
+  }
+  
+  .icons {
+    float: left;
+    padding-right: 10px;
+    height: 20px;
+    width: auto;
+  }
+  
+  .email {
+    width: 300px;
+    height: 40px;
+    color: white;
+  }
+  
+  .follow {
+    padding-bottom: 20px;
+  }

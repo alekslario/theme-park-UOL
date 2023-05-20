@@ -1,0 +1,364 @@
+
+/*Navigation bar */
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 3;
+  overflow: hidden;
+  width: 100%;
+  background-color: #333;
+  animation-name: navbar;
+  animation-duration: 1.2s;
+}
+
+#navbar #nav-links a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar #nav-links a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#navbar #homelogo-area a {
+  float: left;
+  display: block;
+}
+
+#navbar #homelogo-area a img {
+  border-radius: 4px;
+  height: 40px;
+  padding-left: 15px;
+}
+
+/*navigation bar animation*/
+@keyframes navbar{
+  from{ transform: translateY(-400px);}
+  to {transform: translateY(0px);}
+}
+
+/*content*/
+.body{
+  z-index: 1; /*so the content will go below the navigation bar and the footer*/
+}
+
+/*setting up the grid for the website*/
+.firstrow{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px,fr1));
+  grid-template-rows: repeat(2,auto);
+  grid-template-areas: 'pricing pricing pricing pricing promotion cart cart cart' 'table table table auto auto finalStep finalStep finalStep';
+  grid-gap: 10px;
+  margin: 20px;
+  margin-top: 30px;
+}
+
+/*the pricing table*/
+.price{
+  grid-area: pricing;
+  width: 45vw;     /*so the content will scale with the screen width. This will be used a lot*/
+  height: auto;
+  animation-name: price;
+  animation-duration: 1s;
+}
+
+/*the pricing table title*/
+.price h1{
+  font-size: 1.6vw;
+}
+
+/*The pricing*/
+.price img{
+  max-width: 45vw;
+}
+
+/*the pricing table animation*/
+@keyframes price {
+  0% {opacity: 0;}
+  100%{opacity: 1;}
+  from{ transform: translateX(-400px);}
+  to {transform: translateX(0px);}
+}
+
+/*the promotion box*/
+.promotion{
+  width: 10.5vw;
+  height: auto;
+  grid-area: promotion;
+  animation-name: promotion;
+  animation-duration: 1.5s;
+}
+
+/*the promotion title*/
+.promotion h1{
+  font-size: 1.6vw;
+}
+
+/*the promotion image*/
+.promotion img{
+  max-width: 10.5vw;
+}
+
+/*promotion animation*/
+@keyframes promotion {
+  0% {opacity: 0;}
+  100%{opacity: 1;}
+  from{ transform: translateX(-400px);}
+  to {transform: translateX(0px);}
+}
+
+/*the cart table*/
+.cart{
+  grid-area: cart;
+  animation-name: cart;
+  animation-duration: 2s;
+}
+
+/*the cart title*/
+.cart h1{
+  font-size: 1.6vw;
+}
+
+/*the cart table's letters*/
+.checkouttable th, td{
+  font-size: 2.2vw;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+/*the cart table's frame*/
+.checkouttable{
+  font-size: 2.2vw;
+  border: 2px solid black;
+  margin-top: -5px;
+}
+
+/*the cart animation*/
+@keyframes cart {
+  0% {opacity: 0;}
+  100%{opacity: 1;}
+  from{ transform: translateX(400px);}
+  to {transform: translateX(0px);}
+}
+
+/*the ticket selection table*/
+.tablE{
+  grid-area: table;
+  font-size: 2.2vw;
+  animation-name: tablE;
+  animation-duration: 2.5s;
+}
+
+.tablE table{
+  border: 2px solid black;
+}
+
+/*the words inside the ticket selection table*/
+.tablE th{
+  font-size: 1.2vw;
+  padding: 10px;
+}
+
+/*ticket selection table's animation*/
+@keyframes tablE {
+  0% {opacity: 0;}
+  100%{opacity: 1;}
+  from{ transform: translateX(-400px);}
+  to {transform: translateX(0px);}
+}
+
+/*the email section*/
+.finalStep{
+  grid-area: finalStep;
+  font-size: 2.2vw;
+  animation-name: final;
+  animation-duration: 3s;
+}
+
+/*the email section title*/
+.finalStep label{
+  font-size: 1.6vw;
+}
+
+/*the email section's inut text box*/
+.finalStep input{
+  width: 95%;
+  height: 30px;
+}
+
+/*the email section's button*/
+.checkoutbutton{
+  font-size: 16px;
+  background-color: #000;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+  width: 100px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.checkoutbutton:hover{
+  font-size: 24px;
+  transform: translate(0,-3px);
+  border: 5px solid black;
+  background-color: white;
+  color: black;
+  width: 150px;
+  transition: 0.7s;
+}
+
+/*the select ticket table's button*/
+.confirmButton{
+font-size: 16px;
+background-color: #000;
+border: none;
+color: white;
+text-align: center;
+text-decoration: none;
+padding: 10px;
+width: 100px;
+cursor: pointer;
+font-weight: bold;
+}
+
+.confirmButton:hover{
+font-size: 24px;
+transform: translate(0,-3px);
+border: 5px solid black;
+background-color: white;
+color: black;
+width: 150px;
+transition: 0.7s;
+}
+
+/*the email section animation*/
+@keyframes final {
+  0% {opacity: 0;}
+  100%{opacity: 1;}
+  from{ transform: translateX(400px);}
+  to {transform: translateX(0px);}
+}
+
+/* to ake the website works on phone screen (WIP)*/
+@media all and (max-width: 620px)
+{
+  .firstrow{
+    grid-template-columns: repeat(auto-fit, minmax(100px,fr1));
+    grid-template-rows: repeat(4,auto);
+    grid-template-areas: 'pricing' 'promotion' 'table' 'cart' 'finalStep';
+  }
+
+  .price{
+    width: 100%;
+  }
+
+  .price h1{
+    font-size: 4vw;
+  }
+
+  .price img{
+    max-width: 100%;
+    height: auto;
+  }
+
+  .promotion{
+    width: 80%;
+  }
+
+  .promotion h1{
+    font-size: 4vw;
+  }
+
+  .promotion img{
+    max-width: 60%;
+    height: auto;
+  }
+
+  .tablE{
+    width: 100%;
+    font-size: 6vw;
+  }
+
+  .tablE th{
+    font-size: 4vw;
+  }
+
+  .cart h1{
+    font-size: 4vw;
+  }
+
+  .checkouttable{
+    font-size: 5vw;
+  }
+
+  .finalStep{
+    width: 100%;
+  }
+
+  .finalStep label{
+    font-size: 4vw;
+  }
+
+  .finalStep input{
+    width: 100%;
+  }
+
+  .finalStep button{
+    font-size: 4vw;
+  }
+  
+}
+
+/*Footer CSS*/
+footer{
+  bottom: 0;
+  right: 0;
+  left: 0;
+    background-color: #333;
+    color: white;
+}
+
+.flexbox-container {
+  display: flex;
+  justify-content: space-around;
+  background-color: #333;
+  padding: 10px;
+  animation-name: footer;
+  animation-duration: 1.2s;
+}
+
+button:hover{
+  background-color: #F2F2F2;
+  color:#333;
+}
+
+.icons {
+  float: left;
+  padding-right: 10px;
+}
+
+.facebook {
+  float: left;
+  padding-right: 15px;
+}
+
+/*the footer animation*/
+@keyframes footer{
+  0% {opacity: 0;}
+  100%{opacity: 1;}
+  from{ transform: translateY(400px);}
+  to {transform: translateY(0px);}
+}
+
+/*the get newsletter button from the footer*/
