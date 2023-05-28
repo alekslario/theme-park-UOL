@@ -74,6 +74,14 @@ Homepage content should include:
 4) Emergency contact information
 5) Park opening/closing times
 
-28.05.2023 Progress
+# 28.05.2023 Progress
+
+
+https://github.com/alekslario/theme-park-UOL/assets/29345608/112682b6-c458-4132-b8e5-d7bbbdf11333
+
+
+
+
+https://github.com/alekslario/theme-park-UOL/assets/29345608/05f4fb84-2208-4a8a-aa7d-144a08fcde87
 
 
