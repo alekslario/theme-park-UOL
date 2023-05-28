@@ -1,3 +1,4 @@
+/*CSS by Aleksandrs Larionovs */
 @import "mobile-menu.css";
 @import "footer.css";
 @import "menu.css";
@@ -112,7 +113,7 @@ p {
   font-weight: 500;
   margin-bottom: 10px;
 }
-.section {
+section {
   position: relative;
   padding: 50px 5%;
   background-color: rgb(255, 255, 255);
@@ -125,3 +126,4 @@ p {
 .extra-margin {
   margin: 50px 0px;
 }
+/*CSS by Aleksandrs Larionovs */
