@@ -75,6 +75,5 @@ Homepage content should include:
 5) Park opening/closing times
 
 28.05.2023 Progress
-[chrome-capture-2023-4-28.webm](https://github.com/alekslario/theme-park-UOL/assets/29345608/284e5d01-ca3c-442a-9d8c-a03232c563bd)
-[chrome-capture-2023-4-28 (1).webm](https://github.com/alekslario/theme-park-UOL/assets/29345608/fcc3e165-a4e9-4039-a35c-e65900dbe4e3)
+
 
