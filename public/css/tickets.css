@@ -42,7 +42,7 @@
     transform: translateY(-20px);
 }
 
-.ticket-heading{
+.ticket-heading {
     display: flex;
     padding: 50px 24px 24px;
     flex-direction: column;
@@ -58,7 +58,7 @@
 
 .ticket-text-block {
     display: flex;
-    padding: 40px 24px 24px;
+    padding: 40px 23px 23px;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
@@ -73,8 +73,21 @@
 /* Target the h3 heading class within the ticket-text-block class element */
 .ticket-text-block h3{
     padding-left: 8px;
+    color: white;
     line-height: 45px;
-    background-color: burlywood;
+    font-weight: normal;
+    background-color: var(--main-attention-color);
     width: 100%;
+}
+
+.ticket-text-block ul {
+    list-style: circle;
+    padding-left: 20px;
+}
+
+h5.tileHeading {
+    width: 100%;
+    border-bottom: 1px solid var(--main-attention-color);
+    font-weight: normal;
 }
 /* CSS by Matthew Tyler */
