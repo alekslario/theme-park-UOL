@@ -2,6 +2,7 @@
 @import "mobile-menu.css";
 @import "footer.css";
 @import "menu.css";
+@import "responsive.css";
 @font-face {
   font-family: mainFont;
   src: url(../fonts/FiraSans-Bold.ttf);
