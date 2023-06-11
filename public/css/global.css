@@ -127,4 +127,27 @@ section {
 .extra-margin {
   margin: 50px 0px;
 }
+
+.button {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+  display: inline-block;
+  font-size: 16px;
+  padding: 6px 36px;
+  width: auto;
+}
+
+.cta {
+  background-color: var(--main-attention-color);
+  color: #fff !important;
+}
+
+.cta:hover {
+  background-color: #777;
+}
+
+.terms {
+  font-size: 10px;
+}
 /*CSS by Aleksandrs Larionovs */
