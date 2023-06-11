@@ -80,14 +80,26 @@
     width: 100%;
 }
 
+.ticket-text-block p.ticketDescription {
+    min-height: 150px;
+}
+
 .ticket-text-block ul {
     list-style: circle;
     padding-left: 20px;
+    height: 200px;
 }
 
 h5.tileHeading {
     width: 100%;
     border-bottom: 1px solid var(--main-attention-color);
     font-weight: normal;
+}
+
+.ticket-text-block p.ticketCta {
+    border-top: 1px solid var(--main-attention-color);
+    padding-top: 20px;
+    width: 100%;
+    text-align: right;
 }
 /* CSS by Matthew Tyler */
