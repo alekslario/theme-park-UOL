@@ -209,18 +209,52 @@
   }
 }
 .review {
-  background-color: var(--dark-text-color);
   color: var(--secondary-bg-color);
   font-size: 26px;
+  position: relative;
+  overflow: hidden;
+  height: clamp(500px, 900px - 50vw, 900px);
+
+  @media screen and (max-width: 479px) {
+    font-size: 20px;
+  }
 }
 .review h4 {
   color: var(--secondary-bg-color);
 }
-.review div {
-  margin: 100px;
+.review-background {
+  background-color: var(--dark-text-color);
+  opacity: 0.6;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+.review-text {
+  padding: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
   display: flex;
   justify-content: center;
   flex-direction: column;
+  z-index: 2;
+  @media screen and (max-width: 479px) {
+    padding: 50px;
+  }
+}
+.review video {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  z-index: 0;
 }
 
 .image-gallery {
