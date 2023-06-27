@@ -103,4 +103,19 @@ h5.tileHeading {
     text-align: right;
 }
 
+.ticket-hero-image {
+  background-image: url("../images/8.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0% 25%;
+}
+.ticket-hero {
+  height: 60vh;
+  padding-top: 80px;
+}
+
+section#tickets-section p#ticket-intro-text {
+  text-align: justify;
+  padding: 0 20px;
+}
 /* CSS by Matthew Tyler */
