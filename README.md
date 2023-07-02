@@ -48,12 +48,14 @@ Homepage content should include:
 7) Newsletter signup
 8) Booking functionality
 
-### Tickets/Packages page: Matthew Tyler
-1) Day packages
-2) Annual packages
-3) Accommodation packages
+## Tickets Page: Matthew Tyler
+1)Pricing
+2)Quantity
+3)Day Pass
+4)3 Day Pass
+5)Annual Pass
 
-### FAQ page:  Farrah
+### FAQ page:  Farah Mustafa
 1) General park FAQs
 2) Map of park
 
@@ -69,10 +71,6 @@ Homepage content should include:
 
 https://github.com/alekslario/theme-park-UOL/assets/29345608/112682b6-c458-4132-b8e5-d7bbbdf11333
 
-
-
-
-https://github.com/alekslario/theme-park-UOL/assets/29345608/05f4fb84-2208-4a8a-aa7d-144a08fcde87
 
 ### Website Structure: Ather Al-hussaini, Aleksandrs Larionovs, Matthew Tyler, Farah
 The website structure will make our website flow and make our work better and easier to follow.
