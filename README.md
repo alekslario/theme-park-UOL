@@ -49,11 +49,13 @@ Homepage content should include:
 8) Booking functionality
 
 ## Tickets Page: Matthew Tyler
-1)Pricing
-2)Quantity
-3)Day Pass
-4)3 Day Pass
-5)Annual Pass
+1) Pricing
+2) Quantity
+3) Pricing updates
+4) Day Pass
+5) 3 Day Pass
+6) Annual Pass
+
 
 ### FAQ page:  Farah Mustafa
 1) General park FAQs
