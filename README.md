@@ -48,24 +48,14 @@ Homepage content should include:
 7) Newsletter signup
 8) Booking functionality
 
-### Packages page: Matthew Tyler
-1) Featured (seasonal) packages
-2) Family booking packages
-3) Annual packages
-4) Partner packages
-5) Accommodation packages
+### Tickets/Packages page: Matthew Tyler
+1) Day packages
+2) Annual packages
+3) Accommodation packages
 
-### Help page: Matthew Tyler
-1) Map of park
-2) Parking information
-3) Accessibility information
-4) Event information
-
-### FAQ page:  Aleksandrs Larionovs
+### FAQ page:  Farrah
 1) General park FAQs
-2) Specific ride FAQs
-3) Ticketing FAQs
-4) Website FAQs
+2) Map of park
 
 ### Contact page: Ather Al-hussaini
 1) Contact form
