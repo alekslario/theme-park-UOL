@@ -178,4 +178,43 @@ a.cta:hover {
 .terms {
   font-size: 10px;
 }
+
+.spotlight {
+  padding: 24px;
+  gap: 32px;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr minmax(75px, 1fr);
+  display: grid;
+  grid-auto-columns: 1fr;
+  @media screen and (max-width: 991px) {
+    row-gap: 40px;
+    grid-template-columns: 1fr;
+  }
+}
+
+.spotlight ul {
+  margin-top: 20px;
+  list-style-type: disc;
+  padding-left: 20px;
+}
+.spotlight ul > li {
+  margin-bottom: 15px;
+}
+
+.spotlight-image {
+  position: absolute;
+  inset: 64px 0% 0% auto;
+  width: 100%;
+  height: 600px;
+  max-width: 50%;
+  padding: 24px;
+  background-image: url("../images/10.png");
+  background-position: 50% 50%;
+  background-size: cover;
+  @media screen and (max-width: 991px) {
+    position: static;
+    height: 520px;
+    max-width: none;
+  }
+}
 /*CSS by Aleksandrs Larionovs */

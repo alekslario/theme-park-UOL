@@ -1,0 +1,13 @@
+@import "global.css";
+
+/*CSS by FARAH MUSTAFA */
+.spotlight-questions {
+  grid-template-columns: 1fr 1fr;
+  @media screen and (max-width: 991px) {
+    grid-template-columns: 1fr;
+  }
+}
+#faq-section {
+  margin-top: 200px;
+}
+/*CSS by FARAH MUSTAFA */

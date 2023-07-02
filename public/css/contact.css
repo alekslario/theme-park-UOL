@@ -1,0 +1,35 @@
+@import "global.css";
+
+/*CSS by ATHER AL-HUSSAINI */
+#contact-section {
+  margin-top: 200px;
+}
+#contact-form {
+  margin-right: 50px;
+}
+#contact-form form {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+#contact-form input {
+  width: 100%;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  padding: 10px 25px;
+  border: 1px solid var(--main-attention-color);
+}
+
+#contact-form textarea {
+  width: 100%;
+  height: 200px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  padding: 10px 25px;
+  border: 1px solid var(--main-attention-color);
+}
+
+#contact-form button {
+  width: 100px;
+}
+
+/*CSS by ATHER AL-HUSSAINI */

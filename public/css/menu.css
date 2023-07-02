@@ -1,6 +1,7 @@
 /*CSS by Aleksandrs Larionovs */
 #main-nav {
   z-index: 99;
+  top: 0;
   display: flex;
   flex-direction: row;
   justify-content: space-between;

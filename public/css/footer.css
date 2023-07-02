@@ -1,4 +1,5 @@
 /*CSS by Aleksandrs Larionovs */
+@import "global.css";
 footer {
   padding: 50px 5%;
   background-color: var(--secondary-bg-color);
@@ -19,7 +20,7 @@ footer {
 footer li {
   margin: 25px 15px 5px 0;
 }
-#subscribe-button {
+.subscribe-button {
   min-height: 40px;
   letter-spacing: 2px;
   padding: 16px 22px;
