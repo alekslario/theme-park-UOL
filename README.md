@@ -77,10 +77,10 @@ https://github.com/alekslario/theme-park-UOL/assets/29345608/112682b6-c458-4132-
 ### Website Structure: Ather Al-hussaini, Aleksandrs Larionovs, Matthew Tyler, Farah
 The website structure will make our website flow and make our work better and easier to follow.
 1) Home
-2) Menue
+2) Menu
 3) Ticket
 4) Contact
 5) Subscribe
 
-The strucutre must be easy to follow and simple for the consumer to navagiate.
+The structure must be easy to follow and simple for the consumer to navigate.
 
