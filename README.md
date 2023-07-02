@@ -84,3 +84,6 @@ The website structure will make our website flow and make our work better and ea
 
 The structure must be easy to follow and simple for the consumer to navigate.
 
+The structure of a website is very important, affectingg not only the interaction between consumers and the site but also how efficiently search engines can catalogue the site. The following points illustrate why this is so crucial:
+
+ A website with a well-designed structure makes it simple for the uset to follow.
