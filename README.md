@@ -48,7 +48,7 @@ Homepage content should include:
 7) Newsletter signup
 8) Booking functionality
 
-### FAQ page:  Farah
+### FAQ page:  Farah Mustafa
 1) General park FAQs
 2) Specific ride FAQs
 3) Ticketing FAQs
