@@ -84,4 +84,11 @@ https://github.com/alekslario/theme-park-UOL/assets/29345608/112682b6-c458-4132-
 
 https://github.com/alekslario/theme-park-UOL/assets/29345608/05f4fb84-2208-4a8a-aa7d-144a08fcde87
 
+### Website Structure:
+Home
+Menu
+Book Now
+Ticket
+Contact
+Subscribe
 
