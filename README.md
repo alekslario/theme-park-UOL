@@ -74,7 +74,7 @@ Homepage content should include:
 https://github.com/alekslario/theme-park-UOL/assets/29345608/112682b6-c458-4132-b8e5-d7bbbdf11333
 
 
-### Website Structure: Ather Al-hussaini, Aleksandrs Larionovs, Matthew Tyler, Farah
+### Website Structure: Ather Al-hussaini, Aleksandrs Larionovs, Matthew Tyler, Farah Mustafa
 The website structure will make our website flow and make our work better and easier to follow.
 1) Home
 2) Menu
