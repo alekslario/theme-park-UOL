@@ -92,4 +92,5 @@ The website structure will make our website flow and make our work better and ea
 4) Contact
 5) Subscribe
 
+The strucutre must be easy to follow and simple for the consumer to navagiate.
 
