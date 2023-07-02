@@ -85,6 +85,7 @@ https://github.com/alekslario/theme-park-UOL/assets/29345608/112682b6-c458-4132-
 https://github.com/alekslario/theme-park-UOL/assets/29345608/05f4fb84-2208-4a8a-aa7d-144a08fcde87
 
 ### Website Structure:
+The website structure will make our website flow and make our work better and easier to follow.
 1) Home
 2) Menue
 3) Ticket
