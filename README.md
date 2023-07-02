@@ -48,7 +48,7 @@ Homepage content should include:
 7) Newsletter signup
 8) Booking functionality
 
-## Tickets Page: Matthew Tyler
+### Tickets Page: Matthew Tyler
 1) Pricing
 2) Quantity
 3) Pricing updates
