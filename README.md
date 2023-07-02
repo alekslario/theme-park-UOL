@@ -37,7 +37,7 @@ Generally, the websites can be extremely busy with a lot of information thrown a
 #
 
 ## Website content:
-### Homepage:
+### Homepage: Aleksandrs Larionovs
 Homepage content should include:
 1) Featured rides
 2) Latest park news
@@ -48,26 +48,26 @@ Homepage content should include:
 7) Newsletter signup
 8) Booking functionality
 
-### Packages page:
+### Packages page: Matthew Tyler
 1) Featured (seasonal) packages
 2) Family booking packages
 3) Annual packages
 4) Partner packages
 5) Accommodation packages
 
-### Help page:
+### Help page: Matthew Tyler
 1) Map of park
 2) Parking information
 3) Accessibility information
 4) Event information
 
-### FAQ page:
+### FAQ page:  Aleksandrs Larionovs
 1) General park FAQs
 2) Specific ride FAQs
 3) Ticketing FAQs
 4) Website FAQs
 
-### Contact page:
+### Contact page: Ather Al-hussaini
 1) Contact form
 2) Address
 3) Contact information
@@ -84,7 +84,7 @@ https://github.com/alekslario/theme-park-UOL/assets/29345608/112682b6-c458-4132-
 
 https://github.com/alekslario/theme-park-UOL/assets/29345608/05f4fb84-2208-4a8a-aa7d-144a08fcde87
 
-### Website Structure:
+### Website Structure: Ather Al-hussaini, Aleksandrs Larionovs, Matthew Tyler, Farah
 The website structure will make our website flow and make our work better and easier to follow.
 1) Home
 2) Menue
