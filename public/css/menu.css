@@ -1,4 +1,5 @@
 /*CSS by Aleksandrs Larionovs */
+
 #main-nav {
   z-index: 99;
   top: 0;
@@ -17,10 +18,16 @@
   padding: 5px 15px;
   box-shadow: 0px 1px 4px 4px #9f979726;
 }
+
 .menu-links {
   display: flex;
   flex-direction: row;
   @media (max-width: 768px) {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .menu-links {
     display: none;
   }
 }

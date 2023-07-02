@@ -1,6 +1,12 @@
 /*CSS by Aleksandrs Larionovs */
 #mobile-menu {
-  @media screen and (min-width: 769px) {
+  @media (min-width: 769px) {
+    display: none;
+  }
+}
+/*CSS for Firefox */
+@media (min-width: 769px) {
+  #mobile-menu {
     display: none;
   }
 }
