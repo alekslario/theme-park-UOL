@@ -1,6 +1,6 @@
 # theme-park-UOL
 
-## Purpose of website:
+## Purpose of the website:
 The main purpose of the website is to support users in purchasing tickets to attend the theme park. Booking functionality must be readily available to allow users to search for specific booking times and pricing, whenever necessary, in a user-friendly manner.
 
 General supporting information will be supplied, such as:
@@ -29,10 +29,10 @@ Pricing, ticketing and accommodation are the standout structural elements. These
 
 ### Aspects of the sites that are a good idea or that work well:
 Booking functionality is always readily available and is easy to understand.
-Ticketing is well laid out and is uncluttered, making it easy to read and understand.
+Ticketing is well laid out and uncluttered, making it easy to read and understand.
 
 ### Aspects of the sites that are not so successful:
-Generally, the websites can be extremely busy with a lot of information thrown at the user all at once.
+Generally, websites can be extremely busy with a lot of information thrown at the user all at once.
 
 #
 
@@ -53,13 +53,14 @@ Homepage content should include:
 2) Quantity
 3) Pricing updates
 4) Day Pass
-5) 3 Day Pass
+5) 3-Day Pass
 6) Annual Pass
 
 
-### FAQ page:  Farah Mustafa
+### FAQ page: Farah Mustafa
 1) General park FAQs
-2) Map of park
+2) Special events FAQs
+3) Food and beverage FAQs
 
 ### Contact page: Ather Al-hussaini
 1) Contact form
@@ -84,6 +85,6 @@ The website structure will make our website flow and make our work better and ea
 
 The structure must be easy to follow and simple for the consumer to navigate.
 
-The structure of a website is very important, affectingg not only the interaction between consumers and the site but also how efficiently search engines can catalogue the site. The following points illustrate why this is so crucial:
+The structure of a website is very important, affecting not only the interaction between consumers and the site but also how efficiently search engines can catalog the site. The following points illustrate why this is so crucial:
 
- A website with a well-designed structure makes it simple for the uset to follow.
+ A website with a well-designed structure makes it simple for the user to follow.
